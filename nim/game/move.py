@@ -1,6 +1,6 @@
 class Move:
     """A maneuver in the game. The responsibility of Move is to keep track of the stones to remove and which pile to remove them from.
-    
+
     Stereotype: 
         Information Holder
 
@@ -8,9 +8,10 @@ class Move:
         _pile (integer): The pile to remove from.
         _stones (integer): The number of stones to remove.
     """
+
     def __init__(self, stones, pile):
         """The class constructor.
-        
+
         Args:
             self (Board): an instance of Board.
         """

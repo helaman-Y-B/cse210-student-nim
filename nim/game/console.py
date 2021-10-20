@@ -1,16 +1,17 @@
 import random
 
+
 class Console:
     """A code template for a computer console. The responsibility of this 
     class of objects is to get text or numerical input and display text output.
-    
+
     Stereotype:
         Service Provider, Interfacer
 
     Attributes:
         prompt (string): The prompt to display on each line.
     """
-     
+
     def read(self, prompt):
         """Gets text input from the user through the screen.
 
@@ -34,7 +35,7 @@ class Console:
             integer: The user's input as an integer.
         """
         return int(input(prompt))
-        
+
     def write(self, text):
         """Displays the given text on the screen. 
 
